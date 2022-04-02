@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    display: flex;
+}
+h1 {
+    color: black;
+}
+.second-header {
+    color: gray;
+}
+.group-text {
+    margin: 24px;
+    padding: 24px;
+    background-color: pink;
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+}
